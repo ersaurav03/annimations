@@ -18,7 +18,7 @@
           </b-field>
           <b-field label="Age" type="is-success">
             <b-input v-model="user.age" type="number" placeholder="Enter Your Age"></b-input>
-          </b-field>
+          </b-field>a
           <button class="button is-success" @click="submit">Submit</button>
           <button class="button is-primary" @click="fetchData">Data</button>
           <ul>
